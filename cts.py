@@ -39,7 +39,4 @@ class CinemaTicketSystem:
             return True
         else:
             return False
-     
-    def getName(self, user_ID):
-        return self.movies.get(user_ID)
 
