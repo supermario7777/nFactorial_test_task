@@ -40,7 +40,7 @@ def main():
             ticketId = int(input("Введите номер билета: "))
             success = cinemaSystem.cancelTicket(ticketId)
             if success:
-                print("Билет успешно отменен")
+                print("Билет на фильм успешно отменен")
             else:
                 print("Билет с таким номером не найден")
 
